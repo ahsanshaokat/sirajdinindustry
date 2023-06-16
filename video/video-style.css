@@ -1,0 +1,214 @@
+ * {
+     box-sizing: border-box;
+     outline: none;
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body,
+ html {
+     height: 100%;
+ }
+
+ .video-container {
+     overflow: hidden;
+     width: 100%;
+     margin: 0px auto;
+     padding: 0px;
+ }
+
+ .video-banner {
+     position: relative;
+     width: 100%;
+     margin: 0px auto;
+     position: relative;
+     padding: 0px;
+     margin-top: -150px;
+ }
+
+ .owl-carousel {
+     display: block;
+     float: left;
+     width: 100%;
+ }
+
+ .owl-carousel .owl-item {
+     display: block;
+     float: left;
+     width: 100%;
+ }
+
+ .owl-carousel .owl-item .item {
+     display: block;
+     float: left;
+     width: 100%;
+     position: relative;
+     height: 100vh;
+     overflow: hidden;
+ }
+
+ .owl-carousel .owl-item .item img {
+     min-width: 100%;
+     min-height: 100%;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translateY(-50%) translateX(-50%);
+     -webkit-transform: translateY(-50%) translateX(-50%);
+     z-index: -1;
+ }
+
+ .owl-carousel .owl-item .item video {
+     min-width: 100%;
+     min-height: 100%;
+ }
+
+ .owl-carousel .owl-item .item .promo-container {
+     position: absolute;
+     z-index: 9;
+     max-width: 100%;
+     width: 100%;
+     bottom: 35%;
+ }
+
+ .owl-carousel .owl-item .item .promo-container .promo {
+     width: 100%;
+     display: block;
+ }
+
+ .owl-carousel .owl-item .item .promo-container .promo h2 {
+     position: relative;
+     color: white;
+     font-size: calc(3rem + ((1vw - 0.3rem) * 1.1111));
+     letter-spacing: -0.01rem;
+     font-weight: 300;
+     line-height: 65px;
+     margin-bottom: 10px;
+ }
+
+ .text-top1 {
+     color: #1c8878;
+     padding: 0px 5px 5px 5px;
+     background-color: rgba(255, 255, 255, 0.6);
+ }
+
+ .text-top2 {
+     color: #231f20;
+     padding: 0px 5px 5px 5px;
+     background-color: rgba(255, 255, 255, 0.6);
+ }
+
+ .owl-carousel .owl-nav {
+     display: block;
+ }
+
+ .video-container p {
+     font-size: 16px;
+ }
+
+ .owl-prev {
+     width: 60px;
+     height: 60px;
+     position: absolute;
+     top: 50%;
+     left: 0px;
+     display: block !important;
+     background: url(next.png) no-repeat center;
+     cursor: pointer;
+     border: 0px;
+ }
+
+ .owl-next {
+     width: 60px;
+     height: 60px;
+     position: absolute;
+     top: 50%;
+     right: 0px;
+     display: block !important;
+     background: url(pver.png) no-repeat center;
+     cursor: pointer;
+     border: 0px;
+ }
+
+ .bgrt {
+     margin-top: 20px;
+ }
+
+ .bgrt a {
+     background-color: #16887e !important;
+     padding: 7px;
+     color: #fff;
+     font-family: 'Titillium Web', sans-serif;
+     font-size: 14px;
+     letter-spacing: 1px;
+ }
+
+ .bgrt a:hover {
+     background-color: #0d6b63 !important;
+     text-decoration: none;
+ }
+
+ @media screen and (min-width:20px) and (max-width:971px) {
+     .owl-carousel .owl-item .item {
+         display: block;
+         float: left;
+         width: 100%;
+         position: relative;
+         height: 100%;
+         overflow: hidden;
+     }
+     .owl-carousel .owl-item .item .promo-container {
+         position: relative;
+         z-index: 1;
+         max-width: 100%;
+         width: 100%;
+         bottom: 0%;
+         left: 0%;
+     }
+     .owl-carousel .owl-item .item .promo-container .promo h2 {
+         line-height: 40px;
+         text-align: center;
+     }
+     .owl-carousel .owl-item .item .promo-container .promo p {
+         text-align: center;
+     }
+     .bgrt a {
+         background-color: #16887e !important;
+         padding: 7px;
+         color: #fff;
+         font-family: 'Titillium Web', sans-serif;
+         font-size: 14px;
+         letter-spacing: 1px;
+         line-height: 35px;
+     }
+     .video-bg {
+         background-color: #ededed;
+     }
+ }
+
+ @media screen and (min-width:20px) and (max-width:500px) {
+     .owl-prev {
+         top: 40%;
+         left: 0px;
+     }
+     .owl-next {
+         top: 40%;
+         right: 0px;
+     }
+ }
+
+ .container {
+     max-width: 1300px;
+     position: relative;
+     width: 100%;
+ }
+
+ .container {
+     padding-right: 15px;
+     padding-left: 15px;
+     margin-right: auto;
+     margin-left: auto;
+ }

@@ -1,0 +1,145 @@
+.toolbar {
+    background-color: #fff !important;
+    border-bottom: 1px solid #d8dadc
+}
+
+.toolbar a {
+    color: #b1b9bd
+}
+
+.toolbar a:hover {
+    color: #777;
+    text-decoration: none
+}
+
+.toolbar {
+    height: 40px;
+    padding-top: 10px;
+    color: #b1b9bd
+}
+
+.toolbar .separator {
+    border-left: 1px solid #777;
+    display: inline-block;
+    height: 10px;
+    margin: 0 20px;
+    width: 1px
+}
+
+.header-main {
+    background: #fff;
+    position: relative;
+    -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, .4);
+    box-shadow: 0 0 35px rgba(0, 0, 0, .4)
+}
+
+.header-main .container {
+    position: relative
+}
+
+.plr {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.toolbar .cs-select .cs-options {
+    width: 70px;
+    margin-top: 8px
+}
+
+.logo-responsive {
+    width: 195px;
+    position: relative
+}
+
+header {
+    width: 100%;
+    z-index: 1008;
+    position: relative;
+    -webkit-transition: linear .3s;
+    -moz-transition: linear .3s;
+    -ms-transition: linear .3s;
+    -o-transition: linear .3s;
+    transition: linear .3s;
+    background-color: #fff
+}
+
+.sticky-for-header {
+    position: relative;
+    top: 0;
+    z-index: 1000;
+    -webkit-transition: linear .3s;
+    -moz-transition: linear .3s;
+    -ms-transition: linear .3s;
+    -o-transition: linear .3s;
+    transition: linear .3s;
+    background-color: #fff
+}
+
+.sticky-for-header .header-main {
+    top: 0;
+    background: rgba(255, 255, 255, 0);
+    border-bottom: 0 dotted #69767f
+}
+
+.sticky-for-header .headerbar {
+    top: 107px;
+    background: rgba(255, 255, 255, 0)
+}
+
+.stick-09 {
+    margin-top: 0
+}
+
+.sticky-for-body {
+    margin-top: 0;
+    background-color: #FFF
+}
+
+.toolbar_hidden {
+    background-color: #fff
+}
+
+.headerbar {
+    background: #fff;
+    border: 1px solid #ececec;
+    height: 50px
+}
+
+.headerbar .container {
+    color: #8A8A8A
+}
+
+.headline-bar {
+    background: #f6f8f8;
+    border-bottom: 1px solid #ececec;
+    height: 33px
+}
+
+.headlines {
+    color: #a2a2a2;
+    font-size: 12px;
+    font-weight: 400;
+    text-shadow: 0 1px 0 #fff;
+    padding-top: 6px
+}
+
+.custom-page-header h1 small {
+    color: #fff;
+    text-transform: none;
+    padding-left: 10px
+}
+
+@media screen and (min-width:20px) and (max-width:971px) {
+    .stick-09 {
+        margin-top: 0;
+        -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, .4);
+        box-shadow: 0 0 35px rgba(0, 0, 0, .4)
+    }
+    .header-main {
+        background: #fff;
+        position: relative;
+        -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, .4);
+        box-shadow: 0 0 35px rgba(0, 0, 0, .4)
+    }
+}

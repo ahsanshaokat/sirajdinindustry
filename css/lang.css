@@ -1,0 +1,113 @@
+.language-dropdown {
+    display: inline-block
+}
+
+.language-dropdown .lang-en .flag {
+    background-image: url(../menu/flag/globe_en.png)
+}
+
+.language-dropdown .lang-germ .flag {
+    background-image: url(../menu/flag/globe_ger.png)
+}
+
+.language-dropdown .lang-russ .flag {
+    background-image: url(../menu/flag/globe_rus.png)
+}
+
+.language-dropdown .lang-span .flag {
+    background-image: url(../menu/flag/globe_spa.png)
+}
+
+.language-dropdown .lang-poli .flag {
+    background-image: url(../menu/flag/globe_pol.png)
+}
+
+.language-dropdown .lang-arab .flag {
+    background-image: url(../menu/flag/globe_ara.png)
+}
+
+.language-dropdown label,
+.language-dropdown ul li {
+    display: block;
+    width: 23px;
+    height: 23px;
+    background: #efefef;
+    cursor: pointer;
+    border: 1px solid #d8dadc;
+    padding: 1px
+}
+
+.language-dropdown ul.lang-list {
+    position: relative;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1
+}
+
+.language-dropdown ul.lang-list li {
+    border-bottom: 1px solid #d8dadc;
+    width: 23px;
+    height: 27px
+}
+
+.language-dropdown ul.lang-list li.selected {
+    display: none
+}
+
+.language-dropdown label {
+    position: relative;
+    border-bottom: 1px solid #d8dadc;
+    z-index: 2
+}
+
+.language-dropdown .lang-flag .flag,
+.language-dropdown .lang-list .lang .flag {
+    float: left;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.language-dropdown.open ul.lang-list {
+    visibility: visible;
+    opacity: 1
+}
+
+.language-dropdown.open label {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+.animate,
+.lang-flag,
+.lang-list {
+    cursor: pointer;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -ms-transition: all .5s;
+    transition: all .5s;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 0 dotted #000
+}
+
+.tooltip .tooltiptext {
+    visibility: visible;
+    width: 60px;
+    background-color: #efefef;
+    color: #4b4c4e;
+    text-align: left;
+    padding: 5px 0 5px 6px;
+    position: absolute;
+    z-index: 1
+}

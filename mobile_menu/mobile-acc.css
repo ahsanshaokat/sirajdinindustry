@@ -1,0 +1,114 @@
+.accordion-moblie .link,
+.submenu h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px
+}
+
+ul {
+    list-style-type: none
+}
+
+.accordion-moblie {
+    width: 100%;
+    max-width: 360px;
+    margin: 10% auto 10px;
+    overflow-x: auto;
+    height: 90vh
+}
+
+.accordion-moblie .link {
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    position: relative;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    font-family: FuturaStd-Book;
+    letter-spacing: 2px;
+    border-bottom: 1px !important
+}
+
+.accordion-moblie li:last-child .link {
+    border-bottom: 0
+}
+
+.accordion-moblie li i {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    font-size: 18px;
+    color: #fff;
+    -webkit-transition: .4s;
+    -o-transition: .5s;
+    transition: .5s
+}
+
+.accordion-moblie li i.fa-chevron-down {
+    right: 6px;
+    left: auto;
+    font-size: 16px
+}
+
+.accordio-moblien li.open i,
+.accordion-moblie li.open .link {
+    color: #80d442
+}
+
+.accordion-moblie li.open i.fa-chevron-down {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.submenu {
+    display: none;
+    font-size: 14px
+}
+
+.submenu a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    padding: 9px;
+    -webkit-transition: .25s;
+    -o-transition: .25s;
+    transition: .25s;
+    border-bottom: 1px
+}
+
+.submenu a:hover {
+    color: #e4b25d;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s
+}
+
+.submenu h2 {
+    letter-spacing: .15px;
+    padding-bottom: 0;
+    color: #80d442;
+    margin-top: 15px;
+    padding-left: 10px
+}
+
+.submenu a::before {
+    color: #e4b25d;
+    content: attr(data-hover);
+    position: absolute;
+    -webkit-transition: -webkit-transform .3s, opacity .3s;
+    -moz-transition: -moz-transform .3s, opacity .3s;
+    transition: transform .3s, opacity .3s
+}
+
+.submenu a:focus::before,
+.submenu a:hover::before {
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    transform: scale(.9);
+    opacity: 0
+}

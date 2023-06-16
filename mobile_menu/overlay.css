@@ -1,0 +1,59 @@
+#trigger-overlay {
+    float: right;
+    cursor: pointer !important;
+    width: 42px;
+    height: 40px;
+    margin-top: -48px;
+    margin-right: 3px
+}
+
+#trigger-overlay img {
+    width: 32px;
+    height: 32px
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #1a897a;
+    z-index: 99999
+}
+
+.overlay .overlay-close {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    overflow: hidden;
+    border: none;
+    background: url(../images/cross_icon.png) center center no-repeat #1a897a;
+    text-indent: 200%;
+    color: transparent;
+    outline: 0;
+    z-index: 99999
+}
+
+.overlay-hugeinc {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity .5s, visibility 0s .5s;
+    transition: opacity .5s, visibility 0s .5s
+}
+
+.overlay-hugeinc.open {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s
+}
+
+@media (max-width:460px) {
+    .overlay .overlay-close {
+        right: 9px !important;
+        top: 9px !important
+    }
+}
