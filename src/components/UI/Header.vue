@@ -56,13 +56,13 @@
                                 <div class="row">
                                     <div class="col-md-11 col-12">
                                         <div class="navbar-header logo-bar my-left-pus-menu-011111">
-                                            <a href="" class="navbar-brand"><img src="../../assets/images/webp/logo.webp" class="logo-responsive" alt="Siraj Din Industry Logo"></a>
+                                            <a href="/" class="navbar-brand"><img src="../../assets/images/webp/logo.webp" class="logo-responsive" alt="Siraj Din Industry Logo"></a>
                                             <div style="clear:both"></div>
                                         </div>
 
                                         <div id="navbar-collapse-2" class="navbar-collapse collapse pull-right plr my-righ-pus-menu-011111">
                                             <ul class="nav navbar-nav">
-                                                <li><a href="">Home</a></li>
+                                                <li><a href="/">Home</a></li>
                                                 <li class="dropdown megamenu-fw"> <a href="javascript:void(0);" id="sidebar">Products <b class="caret"></b></a>
                                                     <ul class="dropdown-menu" id="sidebar1">
                                                         <li>
