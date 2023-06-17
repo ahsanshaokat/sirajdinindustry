@@ -4,6 +4,7 @@ import Register from './components/Authentication/Register.vue';
 import Dashboard from './components/dashboard/Dashboard.vue';
 import WebHome from './components/website/Home.vue';
 import Index from './components/website/Index.vue';
+import Products from './components/website/Products.vue';
 import Home from './components/dashboard/Home.vue';
 import UsersList from './components/users/UsersList.vue';
 import Product from './components/products/Product.vue';
@@ -44,6 +45,11 @@ const router = createRouter({
             path: '',
             name: 'index',
             component: Index
+        },
+        {
+            path: 'products/:id',
+            name: 'products',
+            component: Products
         },
       ] 
     },

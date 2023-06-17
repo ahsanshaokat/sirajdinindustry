@@ -1,7 +1,7 @@
 export default {
     async addProduct(request, payload) {
         console.log(payload)
-        let _URL = `https://vue-http-demo-6c9e7-default-rtdb.firebaseio.com/products/${payload.productId}.json`;
+        let _URL = `https://siraj-din-engineering-default-rtdb.firebaseio.com/products/${payload.productId}.json`;
 
         const response = await fetch(_URL, {
             method: 'PUT', 
@@ -17,7 +17,7 @@ export default {
       return responseData;
     },
     async getProducts(state, payload) {
-        let _URL = `https://vue-http-demo-6c9e7-default-rtdb.firebaseio.com/products.json`;
+        let _URL = `https://siraj-din-engineering-default-rtdb.firebaseio.com/products.json`;
 
         const response = await fetch(_URL)
 

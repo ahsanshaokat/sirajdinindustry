@@ -12,9 +12,9 @@ export default {
        });
     },
     async authenticateCredenticals(request, payload) {
-        let _URL = 'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyDO3JclBRRwgmGwVjFiYgqqVsTsUKzUiGM';
+        let _URL = 'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyBQI1-ucl7RpuBKXjgaywDs2YwHLFfrvLE';
         if(payload.authType === 'login') {
-            _URL = 'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyDO3JclBRRwgmGwVjFiYgqqVsTsUKzUiGM';
+            _URL = 'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyBQI1-ucl7RpuBKXjgaywDs2YwHLFfrvLE';
         }
 
         const response = await fetch(_URL, {

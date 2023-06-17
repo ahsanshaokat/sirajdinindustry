@@ -18,7 +18,9 @@
                                     <li><a href="blogs">BLOG</a></li>
                                     <li><a href="newsroom">NEWSROOM</a></li>
                                     <li><a href="events">EVENTS</a></li>
-                                    <li class="nopyt-r"><a href="contact-us">CONTACT US</a></li>
+                                    <li><a href="contact-us">CONTACT US</a></li>
+                                    <li><a href="/login">LOGIN</a></li>
+                                    <li class="nopyt-r"><a href="/sign-up">REGISTER</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -75,31 +77,31 @@
                                                                             </ul>
                                                                             <ul class="menubox-drop list-unstyled gr " style="border-right: 1px solid#eaeaea;">
                                                                                 <h2>Engineering </h2>
-                                                                                <li><a href="products/metal-beam-crash-barrier" class="cool-link">Metal Beam Crash Barrier</a></li>
-                                                                                <li><a href="products/high-mast-lighting-systems" class="cool-link">High Mast Lighting Systems</a></li>
-                                                                                <li><a href="products/street-light-pole" class="cool-link">Street Light Pole</a></li>
-                                                                                <li><a href="products/steel-tubular-pole" class="cool-link">Steel Tubular Pole</a></li>
-                                                                                <li><a href="products/hdpe-pipes" class="cool-link">HDPE Pipes</a></li>
-                                                                                <li><a href="products/plb-hdpe-ducts" class="cool-link">PLB HDPE Ducts</a></li>
+                                                                                <li><a href="/products/metal-beam-crash-barrier" class="cool-link">Metal Beam Crash Barrier</a></li>
+                                                                                <li><a href="/products/high-mast-lighting-systems" class="cool-link">High Mast Lighting Systems</a></li>
+                                                                                <li><a href="/products/street-light-pole" class="cool-link">Street Light Pole</a></li>
+                                                                                <li><a href="/products/steel-tubular-pole" class="cool-link">Steel Tubular Pole</a></li>
+                                                                                <li><a href="/products/hdpe-pipes" class="cool-link">HDPE Pipes</a></li>
+                                                                                <li><a href="/products/plb-hdpe-ducts" class="cool-link">PLB HDPE Ducts</a></li>
                                                                             </ul>
                                                                             <ul class="menubox-drop list-unstyled gr " style="border-right: 1px solid#eaeaea; padding-left:20px;">
                                                                                 <!-- <h2>&nbsp; </h2> -->
-                                                                                <li><a href="products/railway-electrification-structures" class="cool-link">Railway Electrification Structures</a></li>
-                                                                                <li><a href="products/transmission-towers" class="cool-link">Transmission Towers</a></li>
-                                                                                <li><a href="products/telecom-towers" class="cool-link">Telecom Towers</a></li>
-                                                                                <li><a href="products/steel-tubes-pipes" class="cool-link">Steel Tubes & Pipes</a></li>
-                                                                                <li><a href="products/pedestrian-barriers" class="cool-link">Pedestrian Barriers</a></li>
-                                                                                <li><a href="products/jal-minar-water-towers" class="cool-link">Jal Minar - Water Towers</a></li>
+                                                                                <li><a href="/products/railway-electrification-structures" class="cool-link">Railway Electrification Structures</a></li>
+                                                                                <li><a href="/products/transmission-towers" class="cool-link">Transmission Towers</a></li>
+                                                                                <li><a href="/products/telecom-towers" class="cool-link">Telecom Towers</a></li>
+                                                                                <li><a href="/products/steel-tubes-pipes" class="cool-link">Steel Tubes & Pipes</a></li>
+                                                                                <li><a href="/products/pedestrian-barriers" class="cool-link">Pedestrian Barriers</a></li>
+                                                                                <li><a href="/products/jal-minar-water-towers" class="cool-link">Jal Minar - Water Towers</a></li>
                                                                                 <li><a href="pre-engineered-metal-buildings" class="cool-link">Pre Engineered Building</a></li>
                                                                             </ul>
                                                                             <ul class="menubox-drop list-unstyled" style="border-right: 1px solid#eaeaea;  padding-left:20px;">
                                                                                 <h2>Pipes & Fittings </h2>
-                                                                                <li><a href="products/upvc-pipes-fittings" class="cool-link">uPVC Pipes & Fittings</a></li>
-                                                                                <li><a href="products/cpvc-pipes-fittings" class="cool-link">CPVC Pipes & Fittings</a></li>
-                                                                                <li><a href="products/swr-pipes-fittings" class="cool-link">SWR Pipes & Fittings</a></li>
-                                                                                <li><a href="products/pvc-casing-pipes" class="cool-link">PVC Casing Pipes</a></li>
-                                                                                <li><a href="products/column-riser-pipes" class="cool-link"> Column Riser Pipes</a></li>
-                                                                                <li><a href="products/grey-agricultural-pipes" class="cool-link">Grey Agricultural Pipes</a></li>
+                                                                                <li><a href="/products/upvc-pipes-fittings" class="cool-link">uPVC Pipes & Fittings</a></li>
+                                                                                <li><a href="/products/cpvc-pipes-fittings" class="cool-link">CPVC Pipes & Fittings</a></li>
+                                                                                <li><a href="/products/swr-pipes-fittings" class="cool-link">SWR Pipes & Fittings</a></li>
+                                                                                <li><a href="/products/pvc-casing-pipes" class="cool-link">PVC Casing Pipes</a></li>
+                                                                                <li><a href="/products/column-riser-pipes" class="cool-link"> Column Riser Pipes</a></li>
+                                                                                <li><a href="/products/grey-agricultural-pipes" class="cool-link">Grey Agricultural Pipes</a></li>
                                                                             </ul>
                                                                             <ul class="menubox-drop list-unstyled mimg-hide">
                                                                                 <div class="menu_right_img ptopbgt"> <img src="../../assets/images/webp/mp2.webp"> </div>
@@ -276,26 +278,26 @@
                                 <div class="link"> PRODUCTS <i class="fa fa-chevron-down"></i> </div>
                                 <ul class="submenu">
                                     <h2>Engineering </h2>
-                                    <li><a href="products/metal-beam-crash-barrier" class="cool-link">Metal Beam Crash Barrier</a></li>
-                                    <li><a href="products/high-mast-lighting-systems" class="cool-link">High Mast Lighting Systems</a></li>
-                                    <li><a href="products/street-light-pole" class="cool-link">Street Light Pole</a></li>
-                                    <li><a href="products/steel-tubular-pole" class="cool-link">Steel Tubular Pole</a></li>
-                                    <li><a href="products/hdpe-pipes" class="cool-link">HDPE Pipes</a></li>
-                                    <li><a href="products/plb-hdpe-ducts" class="cool-link">PLB HDPE Ducts</a></li>
-                                    <li><a href="products/railway-electrification-structures" class="cool-link">Railway Electrification Structures</a></li>
-                                    <li><a href="products/transmission-towers" class="cool-link">Transmission Towers</a></li>
-                                    <li><a href="products/telecom-towers" class="cool-link">Telecom Towers</a></li>
-                                    <li><a href="products/steel-tubes-pipes" class="cool-link">Steel Tubes & Pipes</a></li>
-                                    <li><a href="products/pedestrian-barriers" class="cool-link">Pedestrian Barriers</a></li>
-                                    <li><a href="products/jal-minar-water-towers" class="cool-link">Jal Minar - Water Towers</a></li>
+                                    <li><a href="/products/metal-beam-crash-barrier" class="cool-link">Metal Beam Crash Barrier</a></li>
+                                    <li><a href="/products/high-mast-lighting-systems" class="cool-link">High Mast Lighting Systems</a></li>
+                                    <li><a href="/products/street-light-pole" class="cool-link">Street Light Pole</a></li>
+                                    <li><a href="/products/steel-tubular-pole" class="cool-link">Steel Tubular Pole</a></li>
+                                    <li><a href="/products/hdpe-pipes" class="cool-link">HDPE Pipes</a></li>
+                                    <li><a href="/products/plb-hdpe-ducts" class="cool-link">PLB HDPE Ducts</a></li>
+                                    <li><a href="/products/railway-electrification-structures" class="cool-link">Railway Electrification Structures</a></li>
+                                    <li><a href="/products/transmission-towers" class="cool-link">Transmission Towers</a></li>
+                                    <li><a href="/products/telecom-towers" class="cool-link">Telecom Towers</a></li>
+                                    <li><a href="/products/steel-tubes-pipes" class="cool-link">Steel Tubes & Pipes</a></li>
+                                    <li><a href="/products/pedestrian-barriers" class="cool-link">Pedestrian Barriers</a></li>
+                                    <li><a href="/products/jal-minar-water-towers" class="cool-link">Jal Minar - Water Towers</a></li>
                                     <li><a href="pre-engineered-metal-buildings" class="cool-link">Pre Engineered Building</a></li>
                                     <h2>Pipes & Fittings </h2>
-                                    <li><a href="products/upvc-pipes-fittings" class="cool-link">uPVC Pipes & Fittings</a></li>
-                                    <li><a href="products/cpvc-pipes-fittings" class="cool-link">CPVC Pipes & Fittings</a></li>
-                                    <li><a href="products/swr-pipes-fittings" class="cool-link">SWR Pipes & Fittings</a></li>
-                                    <li><a href="products/pvc-casing-pipes" class="cool-link">PVC Casing Pipes</a></li>
-                                    <li><a href="products/column-riser-pipes" class="cool-link"> Column Riser Pipes</a></li>
-                                    <li><a href="products/grey-agricultural-pipes" class="cool-link">Grey Agricultural Pipes</a></li>
+                                    <li><a href="/products/upvc-pipes-fittings" class="cool-link">uPVC Pipes & Fittings</a></li>
+                                    <li><a href="/products/cpvc-pipes-fittings" class="cool-link">CPVC Pipes & Fittings</a></li>
+                                    <li><a href="/products/swr-pipes-fittings" class="cool-link">SWR Pipes & Fittings</a></li>
+                                    <li><a href="/products/pvc-casing-pipes" class="cool-link">PVC Casing Pipes</a></li>
+                                    <li><a href="/products/column-riser-pipes" class="cool-link"> Column Riser Pipes</a></li>
+                                    <li><a href="/products/grey-agricultural-pipes" class="cool-link">Grey Agricultural Pipes</a></li>
                                 </ul>
                             </li>
 
