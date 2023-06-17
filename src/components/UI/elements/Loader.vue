@@ -26,7 +26,7 @@
       font-weight: 300;
       margin-top: 5px;
       letter-spacing: 1px;
-      color: #fff;
+      color: black;
     }
   
     .loader-wrapper {
