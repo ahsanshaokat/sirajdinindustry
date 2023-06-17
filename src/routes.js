@@ -12,7 +12,6 @@ import store from './store/index';
 const router = createRouter({
   history: createWebHistory(),
   routes: [
-    { path: '/', redirect: '/home/index' },
     { path: '/dashboard', 
         component: Dashboard,
         meta: {
@@ -36,13 +35,13 @@ const router = createRouter({
             },
         ] 
     },
-    { path: '/home', 
+    { path: '/', 
       component: WebHome, meta: {
         isLoggedIn: true,
       },
       children: [
         {
-            path: 'index',
+            path: '',
             name: 'index',
             component: Index
         },
@@ -63,7 +62,7 @@ const router = createRouter({
 
 router.beforeEach(function(to, _, next) {
     if (!to.meta.isLoggedIn && !store.getters.isAuthenticated) {
-      next('/home/index');
+      next('/');
     } else if (to.meta.requiresUnauth && store.getters.isAuthenticated) {
       next('/dashboard/home');
     } else {
