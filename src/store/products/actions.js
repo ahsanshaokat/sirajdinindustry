@@ -28,6 +28,13 @@ export default {
       }
 
       return responseData;
+    },
+    async getProduct(state, payload) {
+        const response = await fetch(
+            `https://siraj-din-engineering-default-rtdb.firebaseio.com/products/${payload.productId}.json`
+          );
+          const responseData = await response.json();
+        return responseData;
     }
 
 }

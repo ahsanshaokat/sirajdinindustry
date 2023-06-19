@@ -24,10 +24,19 @@
                         Product #
                       </th>
                       <th class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                        Image
+                      </th>
+                      <th class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
                         Name
                       </th>
                       <th class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
                         Description
+                      </th>
+                      <th class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                        URL
+                      </th>
+                      <th class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                        Similiar Products
                       </th>
                     </tr>
                   </thead>
@@ -37,10 +46,19 @@
                             {{ product.productId }}
                       </th>
                       <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                        <img  :src="product.imageLink" loading="lazy" alt="" width="300" height="200">
+                      </td>
+                      <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                         {{ product.title }}
                       </td>
                       <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                         {{ product.description }}
+                      </td>
+                      <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                        {{ product.pageLink }}
+                      </td>
+                      <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                        {{ product.similarItems }}
                       </td>
                     </tr>
                   </tbody>
@@ -81,6 +99,9 @@ export default {
             this.showLoader();
             setTimeout(async () => {
                 this.products = await this.$store.dispatch('getProducts', {});
+                for(let index in this.products) {
+                  this.products[index].similarItems = this.products[index].similarItems? JSON.parse(this.products[index].similarItems):[];
+                }
                 this.hideLoader();
             }, 3000);
         },

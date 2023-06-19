@@ -83,6 +83,54 @@
                 </div>
               </div>
             </section>
+
+            <section>
+              <div
+                class="padd-t30 project-location-sec product-similar"
+                style="background: #fff"
+              >
+                <div class="my-container-wrapper">
+                  <div class="inner-left-wapper">
+                    <div>
+                      <div class="padd-b30 text-line s-90">
+                        Similar <span class="colo-we"> Products </span>
+                      </div>
+                      <!--<div  class="sub-titel-inner-n sub-titel-mob-inner padd-b20"> Location Specific <span class="colo-we"> Projects  </span></div> -->
+                      <div class="row padd-t20">
+                        <div class="col-sm-12">
+                          <div class="padd-b30 mob-60">
+                            <div class="col-sm-3 men-ht" v-for="(similiarProduct, index) in similiarProducts" v-bind:key="index">
+                              <a
+                                :href="similiarProduct.pageLink"
+                              >
+                                <div class="thumb">
+                                  <img
+                                    :src="similiarProduct.imageLink"
+                                    :alt="similiarProduct.title"
+                                  />
+                                </div>
+                                <div class="text-bg-n-bt men-ht-text">
+                                  {{ similiarProduct.title }}
+                                </div>
+                              </a>
+                            </div>
+
+                            <div style="clear: both" id="quote-today"></div>
+
+                            <div style="clear: both"></div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div style="clear: both" class="padd-b30"></div>
+                    </div>
+                    <div style="clear: both"></div>
+                  </div>
+
+                  <div style="clear: both"></div>
+                </div>
+              </div>
+            </section>
           </div>
         </div>
       </div>
@@ -107,7 +155,8 @@ export default {
   data() {
     return {
       activePage: {},
-      engineeringActions: {},
+      similiarProducts: [],
+      products: {},
     };
   },
   mounted() {
@@ -117,17 +166,24 @@ export default {
     async getProducts() {
       this.showLoader();
       setTimeout(async () => {
-        this.engineeringActions = await this.$store.dispatch("getProducts", {});
-        for (let link in this.engineeringActions) {
+        this.products = await this.$store.dispatch("getProducts", {});
+        for (let index in this.products) {
           if (
-            this.engineeringActions[link].pageLink ==
+            this.products[index].pageLink ==
             "/products/" + this.$route.params.id
           ) {
-            console.log("products/" + this.$route.params.id);
-            this.activePage = this.engineeringActions[link];
+            this.activePage = this.products[index];
           }
         }
-      this.hideLoader();
+        this.activePage.similarItems = this.activePage.similarItems
+            ? JSON.parse(this.activePage.similarItems)
+            : [];
+        for (let index in this.activePage.similarItems) {
+          this.similiarProducts.push(await this.$store.dispatch('getProduct', {
+                productId: this.activePage.similarItems[index]
+              }));
+        }
+        this.hideLoader();
       }, 3000);
     },
   },

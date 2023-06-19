@@ -49,6 +49,16 @@
                                 style="transition: all 0.15s ease 0s;"
                                 />
                             </div>
+                            <div class="relative w-full mb-3 pb-3">
+                                <input-field
+                                :input-label="productSimilarItemsLabel"
+                                :input-name="productSimilarItemsName"
+                                :input-type="productSimilarItemsType"
+                                :is-required="true"
+                                @input-data="getProductSimilarItems"
+                                style="transition: all 0.15s ease 0s;"
+                                />
+                            </div>
                             <button class="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="reset">
                                 Reset
                             </button>
@@ -87,6 +97,10 @@ export default {
             productImageLinkType: 'text',
             productImageLinkName: 'productImageLink',
             productImageLinkLabel: 'Image Link',
+            similarItemsValue:'',
+            productSimilarItemsType: 'text',
+            productSimilarItemsName: 'productSimilarItems',
+            productSimilarItemsLabel: 'Similar Items',
             isError: false,
             errorMessage: '',
             isSuccess: false,
@@ -105,6 +119,9 @@ export default {
           getProductImageLink(inputValue) {
             this.imageLinkValue = inputValue;
           },
+          getProductSimilarItems(inputValue) {
+            this.similarItemsValue = inputValue;
+          },
           disableOnSubmit() {
             document.getElementById('save').disabled = true;
           },
@@ -117,6 +134,7 @@ export default {
                 description: this.descriptionValue,
                 imageLink: this.imageLinkValue,
                 pageLink: this.pageLinkValue,
+                similarItems: this.similarItemsValue,
               }
               
               const responseData = await this.$store.dispatch('addProduct', payloadData);
