@@ -126,50 +126,50 @@
                                                                             </ul>
                                                                             <ul class="menubox-drop list-unstyled " style="border-right: 1px solid#eaeaea;  padding-left:20px;">
                                                                                 <h2>Road Safety Systems </h2>
-                                                                                <li><a href="application/highway-road-safety" class="cool-link">Highway Road Safety</a></li>
-                                                                                <li><a href="application/pedestrian-road-safety" class="cool-link">Pedestrian Road Safety</a></li>
+                                                                                <li><a href="/application/highway-road-safety" class="cool-link">Highway Road Safety</a></li>
+                                                                                <li><a href="/application/pedestrian-road-safety" class="cool-link">Pedestrian Road Safety</a></li>
                                                                                 <div style="height:15px"></div>
                                                                                 <h2>Area Lighting Illumination</h2>
-                                                                                <li><a href="application/street-and-road-lighting" class="cool-link">Street and Road Lighting</a></li>
-                                                                                <li><a href="application/large-area-and-yard-lighting" class="cool-link">Large Area and Yard Lighting</a></li>
-                                                                                <li><a href="application/designer-street-lighting" class="cool-link">Designer Street Lighting</a></li>
-                                                                                <li><a href="application/solar-street-lighting" class="cool-link">Solar Street Lighting</a></li>
-                                                                                <li><a href="application/stadium-and-sports-lighting" class="cool-link">Stadium and Sports Lighting</a></li>
+                                                                                <li><a href="/application/street-and-road-lighting" class="cool-link">Street and Road Lighting</a></li>
+                                                                                <li><a href="/application/large-area-and-yard-lighting" class="cool-link">Large Area and Yard Lighting</a></li>
+                                                                                <li><a href="/application/designer-street-lighting" class="cool-link">Designer Street Lighting</a></li>
+                                                                                <li><a href="/application/solar-street-lighting" class="cool-link">Solar Street Lighting</a></li>
+                                                                                <li><a href="/application/stadium-and-sports-lighting" class="cool-link">Stadium and Sports Lighting</a></li>
                                                                                 <div style="height:15px"></div>
                                                                                 <h2>Telecommunication </h2>
-                                                                                <li><a href="application/telecom-tower-structures" class="cool-link">Telecom Tower Structures</a></li>
-                                                                                <li><a href="application/optical-fibre-cabling" class="cool-link">Optical Fibre Cabling</a></li>
+                                                                                <li><a href="/application/telecom-tower-structures" class="cool-link">Telecom Tower Structures</a></li>
+                                                                                <li><a href="/application/optical-fibre-cabling" class="cool-link">Optical Fibre Cabling</a></li>
                                                                                 <li>&nbsp;</li>
                                                                             </ul>
                                                                             <ul class="menubox-drop list-unstyled" style="border-right: 1px solid#eaeaea;  padding-left:20px;">
                                                                                 <h2>Utility </h2>
-                                                                                <li><a href="application/power-transmission" class="cool-link">Power Transmission</a></li>
-                                                                                <li><a href="application/power-distribution" class="cool-link">Power Distribution</a></li>
-                                                                                <li><a href="application/power-substation" class="cool-link">Power Substation</a></li>
-                                                                                <li><a href="application/railway-electrification" class="cool-link">Railway Electrification Structure</a></li>
-                                                                                <li><a href="application/rural-electrification" class="cool-link">Rural Electrification</a></li>
-                                                                                <li><a href="application/under-power-cabling" class="cool-link">Under Power Cabling</a></li>
+                                                                                <li><a href="/application/power-transmission" class="cool-link">Power Transmission</a></li>
+                                                                                <li><a href="/application/power-distribution" class="cool-link">Power Distribution</a></li>
+                                                                                <li><a href="/application/power-substation" class="cool-link">Power Substation</a></li>
+                                                                                <li><a href="/application/railway-electrification" class="cool-link">Railway Electrification Structure</a></li>
+                                                                                <li><a href="/application/rural-electrification" class="cool-link">Rural Electrification</a></li>
+                                                                                <li><a href="/application/under-power-cabling" class="cool-link">Under Power Cabling</a></li>
                                                                                 <div style="height:15px"></div>
                                                                                 <h2>Smart City Application </h2>
-                                                                                <li><a href="application/cctv-surveillance-system" class="cool-link">CCTV Surveillance System</a></li>
-                                                                                <li><a href="application/traffic-structures" class="cool-link">Traffic Structures</a></li>
-                                                                                <li><a href="application/signage-structures" class="cool-link">Signage Structures</a></li>
-                                                                                <li><a href="application/wifi-electric-poles" class="cool-link">WiFi, Electric Poles</a></li>
-                                                                                <li><a href="application/flag-special-high-masts" class="cool-link">Flag & Special High Masts</a></li>
+                                                                                <li><a href="/application/cctv-surveillance-system" class="cool-link">CCTV Surveillance System</a></li>
+                                                                                <li><a href="/application/traffic-structures" class="cool-link">Traffic Structures</a></li>
+                                                                                <li><a href="/application/signage-structures" class="cool-link">Signage Structures</a></li>
+                                                                                <li><a href="/application/wifi-electric-poles" class="cool-link">WiFi, Electric Poles</a></li>
+                                                                                <li><a href="/application/flag-special-high-masts" class="cool-link">Flag & Special High Masts</a></li>
                                                                             </ul>
                                                                             <ul class="menubox-drop list-unstyled" style="border-right: 1px solid#eaeaea;  padding-left:20px;">
                                                                                 <h2>Water Transportation</h2>
-                                                                                <li><a href="application/potable-water-distribution" class="cool-link">Potable Water Distribution</a></li>
-                                                                                <li><a href="application/domestic-water-distribution" class="cool-link">Domestic Water Distribution</a></li>
-                                                                                <li><a href="application/agriculture-water-system" class="cool-link">Agriculture Water System</a></li>
-                                                                                <li><a href="application/overhead-tank-structure" class="cool-link">Overhead Tank Structure</a></li>
-                                                                                <li><a href="application/underground-water-system" class="cool-link">Underground Water System</a></li>
-                                                                                <li><a href="application/fire-sprinkler-systems" class="cool-link">Fire Sprinkler Systems</a></li>
+                                                                                <li><a href="/application/potable-water-distribution" class="cool-link">Potable Water Distribution</a></li>
+                                                                                <li><a href="/application/domestic-water-distribution" class="cool-link">Domestic Water Distribution</a></li>
+                                                                                <li><a href="/application/agriculture-water-system" class="cool-link">Agriculture Water System</a></li>
+                                                                                <li><a href="/application/overhead-tank-structure" class="cool-link">Overhead Tank Structure</a></li>
+                                                                                <li><a href="/application/underground-water-system" class="cool-link">Underground Water System</a></li>
+                                                                                <li><a href="/application/fire-sprinkler-systems" class="cool-link">Fire Sprinkler Systems</a></li>
                                                                                 <div style="height:15px"></div>
                                                                                 <h2>Industrial Application</h2>
-                                                                                <li><a href="application/architecture-and-structural" class="cool-link">Architecture and Structural</a></li>
-                                                                                <li><a href="application/liquid-gas-transportation" class="cool-link">Liquid & Gas Transportation</a></li>
-                                                                                <li><a href="application/conveyor-belt-systems" class="cool-link">Conveyor Belt Systems</a></li>
+                                                                                <li><a href="/application/architecture-and-structural" class="cool-link">Architecture and Structural</a></li>
+                                                                                <li><a href="/application/liquid-gas-transportation" class="cool-link">Liquid & Gas Transportation</a></li>
+                                                                                <li><a href="/application/conveyor-belt-systems" class="cool-link">Conveyor Belt Systems</a></li>
                                                                                 <li>&nbsp;</li>
                                                                                 <li>&nbsp;</li>
                                                                             </ul>
@@ -306,48 +306,48 @@
                                 <div class="link"> Application areas <i class="fa fa-chevron-down"></i> </div>
                                 <ul class="submenu">
                                     <h2>Road Safety Systems </h2>
-                                    <li><a href="application/highway-road-safety" class="cool-link">Highway Road Safety</a></li>
-                                    <li><a href="application/pedestrian-road-safety" class="cool-link">Pedestrian Road Safety</a></li>
+                                    <li><a href="/application/highway-road-safety" class="cool-link">Highway Road Safety</a></li>
+                                    <li><a href="/application/pedestrian-road-safety" class="cool-link">Pedestrian Road Safety</a></li>
                                     <div style="height:15px"></div>
                                     <h2>Area Lighting Illumination</h2>
-                                    <li><a href="application/street-and-road-lighting" class="cool-link">Street and Road Lighting</a></li>
-                                    <li><a href="application/large-area-and-yard-lighting" class="cool-link">Large Area and Yard Lighting</a></li>
-                                    <li><a href="application/designer-street-lighting" class="cool-link">Designer Street Lighting</a></li>
-                                    <li><a href="application/solar-street-lighting" class="cool-link">Solar Street Lighting</a></li>
-                                    <li><a href="application/stadium-and-sports-lighting" class="cool-link">Stadium and Sports Lighting</a></li>
+                                    <li><a href="/application/street-and-road-lighting" class="cool-link">Street and Road Lighting</a></li>
+                                    <li><a href="/application/large-area-and-yard-lighting" class="cool-link">Large Area and Yard Lighting</a></li>
+                                    <li><a href="/application/designer-street-lighting" class="cool-link">Designer Street Lighting</a></li>
+                                    <li><a href="/application/solar-street-lighting" class="cool-link">Solar Street Lighting</a></li>
+                                    <li><a href="/application/stadium-and-sports-lighting" class="cool-link">Stadium and Sports Lighting</a></li>
                                     <div style="height:15px"></div>
 
                                     <h2>Telecommunication </h2>
-                                    <li><a href="application/telecom-tower-structures" class="cool-link">Telecom Tower Structures</a></li>
-                                    <li><a href="application/optical-fibre-cabling" class="cool-link">Optical Fibre Cabling</a></li>
+                                    <li><a href="/application/telecom-tower-structures" class="cool-link">Telecom Tower Structures</a></li>
+                                    <li><a href="/application/optical-fibre-cabling" class="cool-link">Optical Fibre Cabling</a></li>
                                     <li>&nbsp;</li>
 
                                     <h2>Utility </h2>
-                                    <li><a href="application/power-transmission" class="cool-link">Power Transmission</a></li>
-                                    <li><a href="application/power-distribution" class="cool-link">Power Distribution</a></li>
-                                    <li><a href="application/power-substation" class="cool-link">Power Substation</a></li>
-                                    <li><a href="application/railway-electrification" class="cool-link">Railway Electrification Structure</a></li>
-                                    <li><a href="application/rural-electrification" class="cool-link">Rural Electrification</a></li>
-                                    <li><a href="application/under-power-cabling" class="cool-link">Under Power Cabling</a></li>
+                                    <li><a href="/application/power-transmission" class="cool-link">Power Transmission</a></li>
+                                    <li><a href="/application/power-distribution" class="cool-link">Power Distribution</a></li>
+                                    <li><a href="/application/power-substation" class="cool-link">Power Substation</a></li>
+                                    <li><a href="/application/railway-electrification" class="cool-link">Railway Electrification Structure</a></li>
+                                    <li><a href="/application/rural-electrification" class="cool-link">Rural Electrification</a></li>
+                                    <li><a href="/application/under-power-cabling" class="cool-link">Under Power Cabling</a></li>
 
                                     <h2>Smart City Application </h2>
-                                    <li><a href="application/cctv-surveillance-system" class="cool-link">CCTV Surveillance System</a></li>
-                                    <li><a href="application/traffic-structures" class="cool-link">Traffic Structures</a></li>
-                                    <li><a href="application/signage-structures" class="cool-link">Signage Structures</a></li>
-                                    <li><a href="application/wifi-electric-poles" class="cool-link">WiFi, Electric Poles</a></li>
-                                    <li><a href="application/flag-special-high-masts" class="cool-link">Flag & Special High Masts</a></li>
+                                    <li><a href="/application/cctv-surveillance-system" class="cool-link">CCTV Surveillance System</a></li>
+                                    <li><a href="/application/traffic-structures" class="cool-link">Traffic Structures</a></li>
+                                    <li><a href="/application/signage-structures" class="cool-link">Signage Structures</a></li>
+                                    <li><a href="/application/wifi-electric-poles" class="cool-link">WiFi, Electric Poles</a></li>
+                                    <li><a href="/application/flag-special-high-masts" class="cool-link">Flag & Special High Masts</a></li>
                                     <h2>Water Transportation</h2>
-                                    <li><a href="application/potable-water-distribution" class="cool-link">Potable Water Distribution</a></li>
-                                    <li><a href="application/domestic-water-distribution" class="cool-link">Domestic Water Distribution</a></li>
-                                    <li><a href="application/agriculture-water-system" class="cool-link">Agriculture Water System</a></li>
-                                    <li><a href="application/overhead-tank-structure" class="cool-link">Overhead Tank Structure</a></li>
-                                    <li><a href="application/underground-water-system" class="cool-link">Underground Water System</a></li>
-                                    <li><a href="application/fire-sprinkler-systems" class="cool-link">Fire Sprinkler Systems</a></li>
+                                    <li><a href="/application/potable-water-distribution" class="cool-link">Potable Water Distribution</a></li>
+                                    <li><a href="/application/domestic-water-distribution" class="cool-link">Domestic Water Distribution</a></li>
+                                    <li><a href="/application/agriculture-water-system" class="cool-link">Agriculture Water System</a></li>
+                                    <li><a href="/application/overhead-tank-structure" class="cool-link">Overhead Tank Structure</a></li>
+                                    <li><a href="/application/underground-water-system" class="cool-link">Underground Water System</a></li>
+                                    <li><a href="/application/fire-sprinkler-systems" class="cool-link">Fire Sprinkler Systems</a></li>
 
                                     <h2>Industrial Application</h2>
-                                    <li><a href="application/architecture-and-structural" class="cool-link">Architecture and Structural</a></li>
-                                    <li><a href="application/liquid-gas-transportation" class="cool-link">Liquid & Gas Transportation</a></li>
-                                    <li><a href="application/conveyor-belt-systems" class="cool-link">Conveyor Belt Systems</a></li>
+                                    <li><a href="/application/architecture-and-structural" class="cool-link">Architecture and Structural</a></li>
+                                    <li><a href="/application/liquid-gas-transportation" class="cool-link">Liquid & Gas Transportation</a></li>
+                                    <li><a href="/application/conveyor-belt-systems" class="cool-link">Conveyor Belt Systems</a></li>
 
 
 
