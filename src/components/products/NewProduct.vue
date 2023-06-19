@@ -54,7 +54,7 @@
                                 :input-label="productSimilarItemsLabel"
                                 :input-name="productSimilarItemsName"
                                 :input-type="productSimilarItemsType"
-                                :is-required="true"
+                                :is-required="false"
                                 @input-data="getProductSimilarItems"
                                 style="transition: all 0.15s ease 0s;"
                                 />
@@ -97,7 +97,7 @@ export default {
             productImageLinkType: 'text',
             productImageLinkName: 'productImageLink',
             productImageLinkLabel: 'Image Link',
-            similarItemsValue:'',
+            similarItemsValue:'[]',
             productSimilarItemsType: 'text',
             productSimilarItemsName: 'productSimilarItems',
             productSimilarItemsLabel: 'Similar Items',
