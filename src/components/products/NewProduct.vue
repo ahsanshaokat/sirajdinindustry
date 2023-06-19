@@ -29,6 +29,26 @@
                                         style="transition: all 0.15s ease 0s;"
                                     />  
                             </div>
+                            <div class="relative w-full mb-3 pb-3">
+                                <input-field
+                                :input-label="productPageLinkLabel"
+                                :input-name="productPageLinkName"
+                                :input-type="productPageLinkType"
+                                :is-required="true"
+                                @input-data="getProductPageLink"
+                                style="transition: all 0.15s ease 0s;"
+                                />
+                            </div>
+                            <div class="relative w-full mb-3 pb-3">
+                                <input-field
+                                :input-label="productImageLinkLabel"
+                                :input-name="productImageLinkName"
+                                :input-type="productImageLinkType"
+                                :is-required="true"
+                                @input-data="getProductImageLink"
+                                style="transition: all 0.15s ease 0s;"
+                                />
+                            </div>
                             <button class="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="reset">
                                 Reset
                             </button>
@@ -59,6 +79,14 @@ export default {
             descriptionproductType: 'textarea',
             productDescriptionName: 'productDescription',
             descriptionLabel: 'Description',
+            pageLinkValue:'',
+            productPageLinkType: 'text',
+            productPageLinkName: 'productPageLink',
+            productPageLinkLabel: 'Page Link',
+            imageLinkValue:'',
+            productImageLinkType: 'text',
+            productImageLinkName: 'productImageLink',
+            productImageLinkLabel: 'Image Link',
             isError: false,
             errorMessage: '',
             isSuccess: false,
@@ -71,6 +99,12 @@ export default {
           getProductDescription(inputValue) {
             this.descriptionValue = inputValue;
           },
+          getProductPageLink(inputValue) {
+            this.pageLinkValue = inputValue;
+          },
+          getProductImageLink(inputValue) {
+            this.imageLinkValue = inputValue;
+          },
           disableOnSubmit() {
             document.getElementById('save').disabled = true;
           },
@@ -81,6 +115,8 @@ export default {
                 productId: new Date().getTime(),
                 title: this.productValue, 
                 description: this.descriptionValue,
+                imageLink: this.imageLinkValue,
+                pageLink: this.pageLinkValue,
               }
               
               const responseData = await this.$store.dispatch('addProduct', payloadData);
