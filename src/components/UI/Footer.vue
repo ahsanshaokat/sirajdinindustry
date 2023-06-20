@@ -15,12 +15,6 @@
                            </div>
                            <div class="col-12 col-lg-3">
                               <div class="site-footer__dropdown" data-expander="" data-expander-hold="" data-expander-loaded="">
-                                 <button class="site-footer__dropdown-title site-footer__dropdown-title--mb" data-expander-toggle="" id="data-expander-5" role="button" aria-expanded="false">
-                                    <span class="sr-only">Toggle</span> Solutions
-                                    <svg class="site-footer__dropdown-title-icon" aria-hidden="true" focusable="false">
-                                       <use xlink:href="/-/media/Themes/NextGen/Common/Common/images/svg-legend.svg#icon-chevron-down"></use>
-                                    </svg>
-                                 </button>
                                  <div class="site-footer__dropdown-title site-footer__dropdown-title--dsk" aria-hidden="true">
                                     ENGINEERING
                                  </div>
@@ -37,39 +31,16 @@
                            </div>
                            <div class="col-12 col-lg-3">
                               <div class="site-footer__dropdown" data-expander="" data-expander-hold="" data-expander-loaded="">
-                                 <button class="site-footer__dropdown-title site-footer__dropdown-title--mb" data-expander-toggle="" id="data-expander-6" role="button" aria-expanded="false">
-                                    <span class="sr-only">Toggle</span> Services
-                                    <svg class="site-footer__dropdown-title-icon" aria-hidden="true" focusable="false">
-                                       <use xlink:href="/-/media/Themes/NextGen/Common/Common/images/svg-legend.svg#icon-chevron-down"></use>
-                                    </svg>
-                                 </button>
-                                 <div class="site-footer__dropdown-title site-footer__dropdown-title--dsk" aria-hidden="true">       
-                                       PIPES & FITTINGS
-                                 </div>
-                                 <div class="site-footer__dropdown-content" data-expander-target="" aria-labelledby="data-expander-6" tabindex="0">
-                                    <ul class="site-footer__list">
-                                       <li v-for="(link, i) in pipesActions" v-bind:key="i" class="site-footer__list-item">
-                                          <a :href="link.href" class="site-footer__list-link">
-                                               {{  link.name }}
-                                          </a>
-                                       </li>
-                                    </ul>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-12 col-lg-3">
-                              <div class="site-footer__dropdown" data-expander="" data-expander-hold="" data-expander-loaded="">
-                                 <button class="site-footer__dropdown-title site-footer__dropdown-title--mb" data-expander-toggle="" id="data-expander-7" role="button" aria-expanded="false">
-                                    <span class="sr-only">Toggle</span> Company
-                                    <svg class="site-footer__dropdown-title-icon" aria-hidden="true" focusable="false">
-                                       <use xlink:href="/-/media/Themes/NextGen/Common/Common/images/svg-legend.svg#icon-chevron-down"></use>
-                                    </svg>
-                                 </button>
                                  <div class="site-footer__dropdown-title site-footer__dropdown-title--dsk" aria-hidden="true">
-                                    FOLLOW US ON SOCIAL MEDIA
+                                    QUICK LINKS
                                  </div>
                                  <div class="site-footer__dropdown-content" data-expander-target="" aria-labelledby="data-expander-7" tabindex="0">
                                     <ul class="site-footer__list">
+                                       <li class="site-footer__list-item">
+                                          <a href="/company/corporate-social-responsibility" class="site-footer__list-link">
+                                          About Us
+                                          </a>
+                                       </li>
                                        <li class="site-footer__list-item">
                                           <a href="/company/awards" class="site-footer__list-link">
                                           Awards
@@ -82,17 +53,7 @@
                                        </li>
                                        <li class="site-footer__list-item">
                                           <a href="/company/corporate-social-responsibility" class="site-footer__list-link">
-                                          Corporate Social Responsibility
-                                          </a>
-                                       </li>
-                                       <li class="site-footer__list-item">
-                                          <a href="/company/diversity-equity-inclusion" class="site-footer__list-link">
-                                          Diversity, Equity &amp; Inclusion
-                                          </a>
-                                       </li>
-                                       <li class="site-footer__list-item">
-                                          <a href="https://investor.nextgen.com/" rel="noopener noreferrer" class="site-footer__list-link" target="_blank">
-                                          Investors
+                                          Contact Us
                                           </a>
                                        </li>
                                        <li class="site-footer__list-item">
@@ -100,15 +61,43 @@
                                           Leadership
                                           </a>
                                        </li>
-                                       <li class="site-footer__list-item">
-                                          <a href="/company/newsroom" class="site-footer__list-link">
-                                          Newsroom
-                                          </a>
-                                       </li>
                                     </ul>
-                                    <p class="mhfr">&copy; 2023 Siraj Din Industry Limited. All Rights Reserved. </p>
+                                    
                                  </div>
                               </div>
+                           </div>
+                           <div class="col-12 col-lg-3">
+                              <div class="site-footer__dropdown" data-expander="" data-expander-hold="" data-expander-loaded="">
+                                 <div class="site-footer__dropdown-title site-footer__dropdown-title--dsk" aria-hidden="true">
+                                    FOLLOW US ON SOCIAL MEDIA
+                                 </div>
+                                 <div class="site-footer__dropdown-content" data-expander-target="" aria-labelledby="data-expander-7" tabindex="0">
+                                    <ul class="site-footer__list">
+                                       <li class="site-footer__list-item">
+                                          <a href="https://www.facebook.com/sirajdin.industry" target="_blank" class="icon-button facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a> 
+                                          <a href="https://twitter.com/sirajdin.industry" target="_blank" class="icon-button twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a> 
+                                          <a href="https://www.youtube.com/channel/sirajdin.industry" target="_blank" class="icon-button youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i><span></span></a> 
+                                       </li>
+                                       <li class="site-footer__list-item">
+                                          <p class="my-4"><i class="fa fa-envelope"></i> <a href="mailto:sirajdin.industry@gmail.com">sirajdin.industry@gmail.com</a></p>
+                                       </li>
+                                       <li class="site-footer__list-item">
+                                          <b>Factory Phone: </b>042-36885412
+                                          <br><b>Mobile: </b> 0301-4860789/0309-4622632 
+                                       </li>
+                                       <li class="site-footer__list-item">
+                                          <b>Address: </b> Karol Ghati, Adj. Khyber Kanata, Lahore Ring Rd, Bahadrabad, Lahore, 54000
+                                       </li>
+                                    </ul>
+                                    
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-md-4"></div>
+                           <div class="col-md-4" style="margin-top: 15px;">
+                              <small>© 2023 Siraj Din Engineering Industry Pvt Ltd. All Rights Reserved. </small>
                            </div>
                         </div>
                      </div>

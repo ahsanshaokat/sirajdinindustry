@@ -6,6 +6,7 @@ import WebHome from './components/website/Home.vue';
 import Index from './components/website/Index.vue';
 import Products from './components/website/Products.vue';
 import Applications from './components/website/Applications.vue';
+import Resources from './components/website/Resources.vue';
 import Home from './components/dashboard/Home.vue';
 import UsersList from './components/users/UsersList.vue';
 import Product from './components/products/Product.vue';
@@ -56,6 +57,11 @@ const router = createRouter({
             path: 'application/:id',
             name: 'application',
             component: Applications
+        },
+        {
+            path: 'resources/:id',
+            name: 'resources',
+            component: Resources
         },
       ] 
     },

@@ -7,7 +7,7 @@
             <div class="video-banner clearfix">
                 <div class="owl-carousel" id="bannerCarousel1">
 
-                    <div class="item" id="delay1" data-videosrc=".../../assets/video/m_05.mp4" preload="none" poster="../../assets/video/4.jpg">
+                    <div class="item" id="delay1" data-videosrc=".../../src/assets/video/m_05.mp4" preload="none" poster="../../assets/video/4.jpg">
                         <img src="../../assets/video/4.jpg" />
                         <div class="promo-container">
                             <div class="promo">
@@ -22,7 +22,7 @@
                     </div>
 
 
-                    <div class="item" id="delay1" data-videosrc="../../assets/video/m_04.mp4">
+                    <div class="item" id="delay1" data-videosrc="../../src/assets/video/m_04.mp4">
                         <img src="../../assets/video/4.jpg" />
                         <div class="promo-container">
                             <div class="promo">
@@ -163,7 +163,7 @@
 
 
         <!--Our Engineering Products Start-->
-        <div class="section section--large-image" style="background-image: url(../../assets/images/bg3.jpg); ">
+        <div class="section section--large-image" style="background-image: url(../../src/assets/images/bg3.jpg); ">
             <div class="page-section-wrapper">
                 <div class="hit-90 m_hit_30"></div>
                 <div class="my-container-wrapper">
@@ -179,11 +179,11 @@
 
 
                                         <div class="col-sm-12">
-                                            <p class="text-con" align="center" style="color:#FFF !important">
+                                            <span class="text-con" align="center" style="color:#FFF !important">
                                                 <p class="text-con" style="color:#FFF !important" align="center"> 
                                                     With 40+ years of engineering excellence in the area of Infrastructure, Siraj Din Industry <br> manufactures a wide range of Galvanised Steel Fabricated Structures as mentioned below. 
                                                 </p>
-                                            </p>
+                                            </span>
                                         </div>
 
 
@@ -948,10 +948,8 @@
                                     <h4 class="h4-md mb-3"><a href="Blog-Details-How-To-Find-The-Best-W-Beam-Crash-Barrier-Manufacturer-in-Pakistan-768">How To Find The Best W Beam Crash Barrier Manufacturer in Pakistan</a></h4>
                                     <br>
                                     <p>
-                                        <p>
                                             Before we start with the main topic, itâ€™s important to clearly understand what exactly is a W Beam Crash Barrier.
                                         </p>
-                                    </p>
                                 </div>
                             </div>
 
@@ -962,8 +960,7 @@
                                 <div class="blog-warp"> <img src="../../assets/images/cmsimg/769.jpg" alt="Everything You Need To Know About Steel Pipes" class="rounded">
                                     <h4 class="h4-md mb-3"><a href="Blog-Details-Everything-You-Need-To-Know-About-Steel-Pipes-769">Everything You Need To Know About Steel Pipes</a></h4>
                                     <br>
-                                    <p>
-                                        <p align="justify">Steel pipes are widely used in residential and industrial projects all across the world. When contractors selec</p></p>
+                                     <p align="justify">Steel pipes are widely used in residential and industrial projects all across the world. When contractors selec</p>
                                 </div>
                             </div>
 
