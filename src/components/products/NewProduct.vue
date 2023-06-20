@@ -50,14 +50,16 @@
                                 />
                             </div>
                             <div class="relative w-full mb-3 pb-3">
-                                <input-field
+<!--                                <input-field
                                 :input-label="productSimilarItemsLabel"
                                 :input-name="productSimilarItemsName"
                                 :input-type="productSimilarItemsType"
                                 :is-required="false"
                                 @input-data="getProductSimilarItems"
                                 style="transition: all 0.15s ease 0s;"
-                                />
+                                />-->
+                                <label for="exampleFormControlTextarea1" style="float: left">Similiar Items/JSON/Others</label>
+                                <textarea class="form-control" v-on:keyup="getProductSimilarItems" :name="productSimilarItemsName" type="text"></textarea>
                             </div>
                             <button class="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="reset">
                                 Reset
@@ -121,6 +123,7 @@ export default {
           },
           getProductSimilarItems(inputValue) {
             this.similarItemsValue = inputValue;
+            console.log(this.similarItemsValue)
           },
           disableOnSubmit() {
             document.getElementById('save').disabled = true;

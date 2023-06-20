@@ -29,7 +29,7 @@
                       <th class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
                         Name
                       </th>
-                      <th class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                      <th width="60%" class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
                         Description
                       </th>
                       <th class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
@@ -51,10 +51,10 @@
                       <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                         {{ product.title }}
                       </td>
-                      <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                        {{ product.description }}
+                      <td width="40%" :title="product.descriptionFull" class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs p-4">
+                        {{ product.description }} ...
                       </td>
-                      <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                      <td width="20" class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                         {{ product.pageLink }}
                       </td>
                       <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
@@ -100,7 +100,12 @@ export default {
             setTimeout(async () => {
                 this.products = await this.$store.dispatch('getProducts', {});
                 for(let index in this.products) {
-                  this.products[index].similarItems = this.products[index].similarItems? JSON.parse(this.products[index].similarItems):[];
+                  this.products[index].descriptionFull = this.products[index].description;
+                  this.products[index].description = this.products[index].description.substring(0,50)
+                  if(!this.products[index].pageLink.match("/resources"))
+                    this.products[index].similarItems = this.products[index].similarItems? JSON.parse(this.products[index].similarItems):[];
+                  else
+                  this.products[index].similarItems = "HTML Content"
                 }
                 this.hideLoader();
             }, 3000);
