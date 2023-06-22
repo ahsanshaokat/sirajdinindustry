@@ -200,7 +200,7 @@
                                                         <div class="mask"></div>
                                                     </div>
                                                     <div class="link-btn but-brt">
-                                                        <a class="primary-btn hvr-bounce-to-left" href="Engineering-Metal_Beam_Crash_Barrier"> <span class="btn-text">Metal Beam Crash Barrier </span> <strong class="icon"><i class="fa fa-long-arrow-right"></i></strong></a>
+                                                        <a class="primary-btn hvr-bounce-to-left" href="/products/metal-beam-crash-barrier"> <span class="btn-text">Metal Beam Crash Barrier </span> <strong class="icon"><i class="fa fa-long-arrow-right"></i></strong></a>
                                                     </div>
                                                 </div>
 
@@ -213,7 +213,7 @@
                                                         <div class="mask"></div>
                                                     </div>
                                                     <div class="link-btn but-brt">
-                                                        <a class="primary-btn hvr-bounce-to-left" href="Engineering-High_Mast_Lighting_Systems"> <span class="btn-text">High Mast Lighting Systems</span> <strong class="icon"><i class="fa fa-long-arrow-right"></i></strong></a>
+                                                        <a class="primary-btn hvr-bounce-to-left" href="/products/high-mast-lighting-systems"> <span class="btn-text">High Mast Lighting Systems</span> <strong class="icon"><i class="fa fa-long-arrow-right"></i></strong></a>
                                                     </div>
                                                 </div>
 
@@ -226,7 +226,7 @@
                                                         <div class="mask"></div>
                                                     </div>
                                                     <div class="link-btn but-brt">
-                                                        <a class="primary-btn hvr-bounce-to-left" href="Engineering-Street_Light_Pole"> <span class="btn-text">Street Light Pole</span> <strong class="icon"><i class="fa fa-long-arrow-right"></i></strong></a>
+                                                        <a class="primary-btn hvr-bounce-to-left" href="/products/street-light-pole"> <span class="btn-text">Street Light Pole</span> <strong class="icon"><i class="fa fa-long-arrow-right"></i></strong></a>
                                                     </div>
                                                 </div>
 
@@ -239,7 +239,7 @@
                                                         <div class="mask"></div>
                                                     </div>
                                                     <div class="link-btn but-brt">
-                                                        <a class="primary-btn hvr-bounce-to-left" href="Engineering-Steel_Tubular_Pole"> <span class="btn-text">Steel Tubular Pole</span> <strong class="icon"><i class="fa fa-long-arrow-right"></i></strong></a>
+                                                        <a class="primary-btn hvr-bounce-to-left" href="/products/steel-tubular-pole"> <span class="btn-text">Steel Tubular Pole</span> <strong class="icon"><i class="fa fa-long-arrow-right"></i></strong></a>
                                                     </div>
                                                 </div>
 
@@ -252,7 +252,7 @@
                                                         <div class="mask"></div>
                                                     </div>
                                                     <div class="link-btn but-brt">
-                                                        <a class="primary-btn hvr-bounce-to-left" href="Engineering-HDPE_Pipes"> <span class="btn-text">HDPE Pipes</span> <strong class="icon"><i class="fa fa-long-arrow-right"></i></strong></a>
+                                                        <a class="primary-btn hvr-bounce-to-left" href="/products/hdpe-pipes"> <span class="btn-text">HDPE Pipes</span> <strong class="icon"><i class="fa fa-long-arrow-right"></i></strong></a>
                                                     </div>
                                                 </div>
 
@@ -265,7 +265,7 @@
                                                         <div class="mask"></div>
                                                     </div>
                                                     <div class="link-btn but-brt">
-                                                        <a class="primary-btn hvr-bounce-to-left" href="Engineering-PLB_HDPE_Ducts"> <span class="btn-text">PLB HDPE Ducts</span> <strong class="icon"><i class="fa fa-long-arrow-right"></i></strong></a>
+                                                        <a class="primary-btn hvr-bounce-to-left" href="/products/plb-hdpe-ducts"> <span class="btn-text">PLB HDPE Ducts</span> <strong class="icon"><i class="fa fa-long-arrow-right"></i></strong></a>
                                                     </div>
                                                 </div>
 
@@ -278,7 +278,7 @@
                                                         <div class="mask"></div>
                                                     </div>
                                                     <div class="link-btn but-brt">
-                                                        <a class="primary-btn hvr-bounce-to-left" href="Engineering-Railway_Electrification_Structures"> <span class="btn-text">Railway Elec. Structures</span> <strong class="icon"><i class="fa fa-long-arrow-right"></i></strong></a>
+                                                        <a class="primary-btn hvr-bounce-to-left" href="/products/railway-electrification-structures"> <span class="btn-text">Railway Elec. Structures</span> <strong class="icon"><i class="fa fa-long-arrow-right"></i></strong></a>
                                                     </div>
                                                 </div>
 
@@ -291,7 +291,7 @@
                                                         <div class="mask"></div>
                                                     </div>
                                                     <div class="link-btn but-brt">
-                                                        <a class="primary-btn hvr-bounce-to-left" href="Engineering-Transmission_Towers"> <span class="btn-text">Transmission Towers</span> <strong class="icon"><i class="fa fa-long-arrow-right"></i></strong></a>
+                                                        <a class="primary-btn hvr-bounce-to-left" href="/products/transmission-towers"> <span class="btn-text">Transmission Towers</span> <strong class="icon"><i class="fa fa-long-arrow-right"></i></strong></a>
                                                     </div>
                                                 </div>
 
@@ -304,7 +304,7 @@
                                                         <div class="mask"></div>
                                                     </div>
                                                     <div class="link-btn but-brt">
-                                                        <a class="primary-btn hvr-bounce-to-left" href="Engineering-Telecom_Towers"> <span class="btn-text">Telecom Towers</span> <strong class="icon"><i class="fa fa-long-arrow-right"></i></strong></a>
+                                                        <a class="primary-btn hvr-bounce-to-left" href="/products/telecom-towers"> <span class="btn-text">Telecom Towers</span> <strong class="icon"><i class="fa fa-long-arrow-right"></i></strong></a>
                                                     </div>
                                                 </div>
 
@@ -317,7 +317,7 @@
                                                         <div class="mask"></div>
                                                     </div>
                                                     <div class="link-btn but-brt">
-                                                        <a class="primary-btn hvr-bounce-to-left" href="Engineering-Steel_Tubes_Pipes"> <span class="btn-text">Steel Tubes & Pipes</span> <strong class="icon"><i class="fa fa-long-arrow-right"></i></strong></a>
+                                                        <a class="primary-btn hvr-bounce-to-left" href="/products/steel-tubes-pipes"> <span class="btn-text">Steel Tubes & Pipes</span> <strong class="icon"><i class="fa fa-long-arrow-right"></i></strong></a>
                                                     </div>
                                                 </div>
 
@@ -330,7 +330,7 @@
                                                         <div class="mask"></div>
                                                     </div>
                                                     <div class="link-btn but-brt">
-                                                        <a class="primary-btn hvr-bounce-to-left" href="Engineering-Pedestrian_Barriers"> <span class="btn-text">Pedestrian Barriers</span> <strong class="icon"><i class="fa fa-long-arrow-right"></i></strong></a>
+                                                        <a class="primary-btn hvr-bounce-to-left" href="/products/pedestrian-barriers"> <span class="btn-text">Pedestrian Barriers</span> <strong class="icon"><i class="fa fa-long-arrow-right"></i></strong></a>
                                                     </div>
                                                 </div>
 
@@ -343,7 +343,7 @@
                                                         <div class="mask"></div>
                                                     </div>
                                                     <div class="link-btn but-brt">
-                                                        <a class="primary-btn hvr-bounce-to-left" href="Engineering-Jal_Minar_Water_Towers"> <span class="btn-text">Jal Minar Water Towers</span> <strong class="icon"><i class="fa fa-long-arrow-right"></i></strong></a>
+                                                        <a class="primary-btn hvr-bounce-to-left" href="	/products/jal-minar-water-towers"> <span class="btn-text">Jal Minar Water Towers</span> <strong class="icon"><i class="fa fa-long-arrow-right"></i></strong></a>
                                                     </div>
                                                 </div>
 
